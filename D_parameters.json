@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appServiceFEAppName": {
+            "value": "Rabindra-assignment-app-dev-FE"
+        },
+        "appServiceFEPlanName": {
+            "value": "Rabindra-assignment-asp-dev-FE"
+        },
+        "appServiceBEAppName": {
+            "value": "Rabindra-assignment-app-dev-BE"
+        },
+        "appServiceBEPlanName": { 
+            "value": "Rabindra-assignment-asp-dev-BE"},
+        "storageAccountName": {
+            "value": "rabindrastoragedev"}
+
+    }
+}
